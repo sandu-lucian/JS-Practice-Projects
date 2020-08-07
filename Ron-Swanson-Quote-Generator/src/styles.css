@@ -1,0 +1,58 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container > img {
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin: 10px;
+  }
+  
+  .btn {
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 0px 20px;
+    background-color: green;
+    outline: none;
+  }
+  
+  #remove-btn {
+    background-color: red;
+  }
+  
+  #quote-btn:active,
+  #remove-btn:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+  }
+  
+  .quotes {
+    width: 60vw;
+    height: 50vh;
+    font-size: 20px;
+  }
+  
+  .hidden {
+    visibility: hidden;
+  }
+  
